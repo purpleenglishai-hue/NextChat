@@ -250,9 +250,9 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="NextChat"
-        subTitle="Build your own AI assistant."
-        logo={<ChatGptIcon />}
+        title="SinhHAI"
+        subTitle="Hệ sinh thái AI Giáo Dục."
+        logo={<img src="/apple-touch-icon.png" alt="SinhHAI Logo" style={{ width: 64, height: 64, borderRadius: 8 }} />}
         shouldNarrow={shouldNarrow}
       >
         <div className={styles["sidebar-header-bar"]}>
